@@ -1,11 +1,11 @@
 # 🔬 Open Deep Research - Enhanced with Gensee Search
 
-> **Fork Notice**: This is an enhanced version of [LangChain's Open Deep Research](https://github.com/langchain-ai/open_deep_research), integrated with [Gensee Search](https://www.gensee.ai/tooling.html) for improved search capabilities and reasoning. Check LangChain's repo to learn more about how it's built.
+> **Fork Notice**: This is an enhanced version of [LangChain's Open Deep Research](https://github.com/langchain-ai/open_deep_research), integrated with [Gensee Search](https://www.gensee.ai) for improved search capabilities and reasoning. Check LangChain's repo to learn more about how it's built.
 
 
 ## 🚀 What's Different in This Version
 
-- **🔍 Gensee Search Integration**: Replaced Tavily with [Gensee Search](https://www.gensee.ai/tooling.html) for enhanced search quality and AI application optimization
+- **🔍 Gensee Search Integration**: Replaced Tavily with [Gensee Search](https://www.gensee.ai) for enhanced search quality and AI application optimization
 - **🧠 Improved Reasoning**: Enhanced agent prompts to encourage more thorough search and reasoning processes
 - **🛠️ Easy Integration**: Demonstrates simple integration of Gensee's testing and optimization tools for GenAI applications
 
