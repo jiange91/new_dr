@@ -246,8 +246,6 @@ class Configuration(BaseModel):
             for field_name in field_names
         }
         obj = cls(**{k: v for k, v in values.items() if v is not None})
-        print("Configuration search api:", obj.search_api)
-        exit(0)
         return obj
 
     class Config:

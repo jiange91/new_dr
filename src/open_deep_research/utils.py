@@ -711,6 +711,7 @@ async def get_all_tools(config: RunnableConfig):
     configurable = Configuration.from_runnable_config(config)
     search_api = SearchAPI(get_config_value(configurable.search_api))
     search_tools = await get_search_tool(search_api)
+    print( f"Using search tools: {[tool.name if hasattr(tool, 'name') else tool.get('name', 'web_search') for tool in search_tools]}" )
     tools.extend(search_tools)
 
     # Track existing tool names to prevent conflicts
